@@ -171,14 +171,11 @@ function App() {
     setCurrentFilter(filterNames[e.target.id - 8]);
   }
 
-  const handleSelectEvent = (e) => {
-    if (e.target.tagName === "BUTTON") {
-      return
-    } else {
-      setSelectedEvent(events[e.target.parentNode.id]);
-      navigate(`/eventos/evento/${events[e.target.parentNode.id].surname}`);
-    }
-  }
+  const handleSelectEvent = (event) => {
+    setSelectedEvent(event);
+    navigate(`/eventos/evento/${event.surname}`);
+  };
+
 
   const handleLike = (e) => {
     let handledLike = allEvents.map((event, i) => {

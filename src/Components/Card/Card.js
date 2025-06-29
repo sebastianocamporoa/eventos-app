@@ -25,8 +25,8 @@ const Card = props => {
   return (
     <motion.div
       className={hoverState[1].selected === false ? styles.card : event.id === 26 ? styles.fifa : event.id === 12 ? styles.tombraider : event.id === 3 ? styles.mariokart : event.id === 11 ? styles.minecraft : styles.cardHome}
-      onClick={handleSelectEvent}
-      id={event.id}
+      onClick={() => handleSelectEvent(event)}
+      // id={event.id}
       style={{ margin: 0, padding: 0 }}
       variants={variants}
       initial="initial"

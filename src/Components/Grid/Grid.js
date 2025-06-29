@@ -34,8 +34,8 @@ const Grid = props => {
     return (
         <>
             <div className={styles.reviews} style={{ display: reviewDisplay ? "flex" : "none" }}>
-                <h2>There are no reviews yet!</h2>
-                <h3>You can add some, soon.</h3>
+                <h2>Aún no hay reseñas!</h2>
+                <h3>Protno podrás dejar las tuyas.</h3>
             </div>
             <div className={styles.gridContainer} style={{ display: reviewDisplay ? "none" : "grid" }} id="gridContainer">
                 {searching === false ? shownEvents.map((event, i) => {
