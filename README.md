@@ -9,6 +9,24 @@ Este proyecto es una prueba técnica desarrollada en React. Simula una plataform
 - **CSS Modules** (estilos encapsulados)
 - **Framer Motion** (animaciones sutiles)
 
+### 📦 Versiones de dependencias
+
+| Librería / Framework         | Versión     |
+|-----------------------------|-------------|
+| react                       | 18.2.0      |
+| react-dom                   | 18.2.0      |
+| react-router-dom            | 6.3.0       |
+| react-scripts               | 5.0.1       |
+| framer-motion               | 6.4.3       |
+| react-slideshow-image       | 4.0.3       |
+| uuid                        | 8.3.2       |
+| @testing-library/react      | 13.3.0      |
+| @testing-library/jest-dom   | 5.16.4      |
+| @testing-library/user-event | 13.5.0      |
+| web-vitals                  | 2.1.4       |
+| gh-pages                    | 4.0.0       |
+| cross-env                   | 7.0.3       |
+
 ## 📁 Estructura del proyecto
 
 ```
